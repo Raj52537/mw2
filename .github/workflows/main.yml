@@ -9,7 +9,7 @@ on:
 env:
   GitHubMail: ${{ secrets.GitHubMail }}
   GitHubName: ${{ secrets.GitHubName }}
-  Branch: "beta"
+  Branch: "master"
 
 jobs:
   debug:
